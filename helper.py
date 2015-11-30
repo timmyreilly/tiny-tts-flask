@@ -5,6 +5,9 @@ from tokens import *
 #Search for Speech APIs from Azure Marketplace.
 #Use the subscription key as Client secret below.
 
+#uncomment this line and add your client_id: 
+# clientSecret = '<32 digits of security>'
+
 ttsHost = "https://speech.platform.bing.com"
 
 params = urllib.parse.urlencode({'grant_type': 'client_credentials', 'client_id': 'nothing', 'client_secret': clientSecret, 'scope': ttsHost})
