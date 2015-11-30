@@ -54,11 +54,6 @@ def get_raw_wav(text='say hello'):
 	print(sliced)
 	return sliced
 	
-
-
-	
-
-
 	
 if __name__ == "__main__":
 	get_raw_wav('hello')
